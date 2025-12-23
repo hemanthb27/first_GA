@@ -1,0 +1,11 @@
+name: demo1
+
+on:
+  workflow_dispatch:
+
+jobs:
+  this_is_first_github_action_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print welcome message
+        run: ls -l
